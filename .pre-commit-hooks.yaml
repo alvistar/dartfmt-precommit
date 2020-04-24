@@ -1,0 +1,9 @@
+- id: dartfmt
+  name: Dartfmt
+  description: Runs dartfmt
+  language: system
+  entry: dartfmt --fix --set-exit-if-changed --overwrite
+  types: [dart]
+  pass_filenames: true
+
+
