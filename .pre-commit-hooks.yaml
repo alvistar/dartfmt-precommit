@@ -2,7 +2,7 @@
   name: Dartfmt
   description: Runs dartfmt
   language: system
-  entry: dartfmt --fix --set-exit-if-changed --overwrite
+  entry: dart format --fix --set-exit-if-changed
   types: [dart]
   pass_filenames: true
 
